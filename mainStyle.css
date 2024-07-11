@@ -1,0 +1,53 @@
+/* this CSS is connected to the "index.html" file */
+body {
+  direction: rtl;
+}
+
+.fr-view {
+  text-align: right;
+}
+
+.lesson-header__author,
+.cover__header-content-authors {
+  display: none !important;
+}
+
+.lesson-header__top-wrap:after {
+  right: 0;
+}
+
+.blocks-button__button {
+  font-size: 1.5rem !important;
+  max-width: none !important;   /* הסרת הגבלת הרוחב המקסימלי */
+  text-align: right !important;
+}
+
+.blocks-button--rounded .blocks-button__button {
+  border-radius: 1.5rem !important;
+}
+
+.blocks-button__button {
+  flex: none !important;
+}
+
+/* כפתורים שמעבירים לנושאים בעמוד פתיחה  */
+.blocks-button__description {
+  display: none !important;
+}
+
+@media (min-width: 60em) {
+  .blocks-button__container {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+}
+
+.blocks-button__button {
+
+  /* מאפשר שבירת שורות */
+  /* white-space: normal; */
+  /* ביטול מאפיין שלוש הנקודות */
+  /* text-overflow: clip; */
+  /* מאפשר שבירת מילים ארוכות */
+  /* word-wrap: break-word; */
+}
