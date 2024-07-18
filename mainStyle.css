@@ -50,4 +50,18 @@ body {
   /* text-overflow: clip; */
   /* מאפשר שבירת מילים ארוכות */
   /* word-wrap: break-word; */
+
+  white-space: nowrap !important; /* מניעת מעברי שורה */
+  overflow: visible !important; /* לא לאפשר חיתוך */
+  text-overflow: clip !important; /* למנוע שלוש נקודות בסוף */
+  width: auto !important; /* התאמת רוחב הכפתור לטקסט */
+  display: inline-block !important; /* כדי שהכפתור יתאים לגודל הטקסט */
+  padding: 10px 20px !important; /* שיפור המראה הכללי */
+  background-color: #4CAF50 !important; /* צבע רקע לדוגמה */
+  color: white !important; /* צבע טקסט לדוגמה */
+  border: none !important; /* ללא גבול */
+  cursor: pointer !important; /* שינוי סמן העכבר */
+  font-size: 16px !important; /* התאמת גודל הטקסט לפי הצורך */
 }
+
+
