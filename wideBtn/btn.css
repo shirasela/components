@@ -1,9 +1,12 @@
 /* this CSS is connected to the "index.html" file */
-/* body {
+body {
   direction: rtl;
   text-align: right;
-} */
+}
 
 #wideBtn {
-  background-color: brown;
+  --color-background: #285f9f;
+  box-shadow: rgb(40, 95, 159) 0px 1px 0px;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
